@@ -10,4 +10,5 @@
     <string name="small_drink_text_view">Small</string>
     <string name="medium_drink_text_view">Medium</string>
     <string name="large_drink_text_view">Large</string>
+    <string name="place_order_button">Place Order</string>
 </resources>
