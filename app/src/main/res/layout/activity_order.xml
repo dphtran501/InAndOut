@@ -10,17 +10,6 @@
     tools:context="edu.orangecoastcollege.cs273.dtran258.inandout.OrderActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_columnSpan="3"
-        android:layout_row="0"
-        android:text="@string/order_activity_header"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/double_double_text_view"/>
@@ -93,6 +82,77 @@
 
     <EditText
         android:id="@+id/shakes_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:text="0"/>
+
+    <!-- Fountain Drinks -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_row="0"
+        android:text="@string/drinks_header"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/small_drink_text_view"/>
+
+    <TextView
+        android:id="@+id/small_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$1.45"/>
+
+    <EditText
+        android:id="@+id/small_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:text="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medium_drink_text_view"/>
+
+    <TextView
+        android:id="@+id/medium_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$1.55"/>
+
+    <EditText
+        android:id="@+id/medium_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:text="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/large_drink_text_view"/>
+
+    <TextView
+        android:id="@+id/large_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$1.75"/>
+
+    <EditText
+        android:id="@+id/large_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="5"

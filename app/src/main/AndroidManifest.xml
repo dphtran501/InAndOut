@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_burger_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OrderActivity">
+        <activity android:name=".OrderActivity"
+            android:label="@string/order_activity_header">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
