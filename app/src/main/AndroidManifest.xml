@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".OrderActivity"
-            android:label="@string/order_activity_header">
+            android:name=".OrderActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

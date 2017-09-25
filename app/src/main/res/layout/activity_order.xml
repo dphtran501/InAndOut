@@ -12,6 +12,16 @@
     android:paddingStart="@dimen/layout_padding"
     tools:context="edu.orangecoastcollege.cs273.dtran258.inandout.OrderActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_marginTop="@dimen/layout_padding"
+        android:text="@string/order_activity_header"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"/>
+
     <!-- Food Items -->
 
     <TextView
