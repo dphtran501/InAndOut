@@ -5,6 +5,98 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/order_background"
+    android:columnCount="3"
+    android:useDefaultMargins="true"
     tools:context="edu.orangecoastcollege.cs273.dtran258.inandout.OrderActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:layout_row="0"
+        android:text="@string/order_activity_header"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/double_double_text_view"/>
+
+    <TextView
+        android:id="@+id/double_double_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$3.60"/>
+
+    <EditText
+        android:id="@+id/double_double_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:text="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cheeseburger_text_view"/>
+
+    <TextView
+        android:id="@+id/cheeseburger_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$2.15"/>
+
+    <EditText
+        android:id="@+id/cheeseburger_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:text="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fries_text_view"/>
+
+    <TextView
+        android:id="@+id/fries_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$1.65"/>
+
+    <EditText
+        android:id="@+id/fries_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:text="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shakes_text_view"/>
+
+    <TextView
+        android:id="@+id/shakes_price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$2.20"/>
+
+    <EditText
+        android:id="@+id/shakes_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:text="0"/>
 </GridLayout>

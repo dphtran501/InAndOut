@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">In And Out</string>
+    <!-- OrderActivity -->
+    <string name="order_activity_header">Place an Order</string>
+    <string name="double_double_text_view">Double Double</string>
+    <string name="cheeseburger_text_view">Cheeseburger</string>
+    <string name="fries_text_view">French Fries</string>
+    <string name="shakes_text_view">Shakes</string>
+    <string name="drinks_header">Fountain Drinks (pick size)</string>
+    <string name="small_drink_text_view">Small</string>
+    <string name="medium_drink_text_view">Medium</string>
+    <string name="large_drink_text_view">Large</string>
 </resources>
