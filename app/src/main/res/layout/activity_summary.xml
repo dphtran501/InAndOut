@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/summary_background"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding"
     tools:context="edu.orangecoastcollege.cs273.dtran258.inandout.SummaryActivity">
 
-</GridLayout>
+    <TextView
+        android:id="@+id/order_total_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/order_total_bottom_margin"
+        android:layout_marginTop="@dimen/order_total_top_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="Order Total: $23.44"/>
+
+    <TextView
+        android:id="@+id/items_ordered_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Items Ordered: 10"/>
+
+    <TextView
+        android:id="@+id/subtotal_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Subtotal: $21.70"/>
+
+    <TextView
+        android:id="@+id/tax_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Tax (8%): $1.74"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/new_order_button_top_margin"
+        android:text="@string/new_order_button"/>
+</LinearLayout>

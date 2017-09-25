@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">In And Out</string>
+
     <!-- OrderActivity -->
     <string name="order_activity_header">Place an Order</string>
     <string name="double_double_text_view">Double Double</string>
@@ -11,4 +12,8 @@
     <string name="medium_drink_text_view">Medium</string>
     <string name="large_drink_text_view">Large</string>
     <string name="place_order_button">Place Order</string>
+
+    <!-- SummaryActivity -->
+    <string name="new_order_button">Start New Order</string>
+
 </resources>

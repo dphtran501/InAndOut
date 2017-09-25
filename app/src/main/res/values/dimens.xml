@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- OrderActivity -->
     <dimen name="layout_padding">15dp</dimen>
     <dimen name="food_drink_buffer">30dp</dimen>
     <dimen name="order_item_width">110dp</dimen>
     <dimen name="price_width">80dp</dimen>
     <dimen name="button_margins">5dp</dimen>
+
+    <!-- SummaryActivity -->
+    <dimen name="order_total_top_margin">100dp</dimen>
+    <dimen name="order_total_bottom_margin">50dp</dimen>
+    <dimen name="new_order_button_top_margin">50dp</dimen>
+
 </resources>
