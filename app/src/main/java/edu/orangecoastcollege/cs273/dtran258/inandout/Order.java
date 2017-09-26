@@ -12,14 +12,38 @@ package edu.orangecoastcollege.cs273.dtran258.inandout;
 public class Order
 {
 
-    private static final double PRICE_DOUBLE_DOUBLE = 3.60;
-    private static final double PRICE_CHEESEBURGER = 2.15;
-    private static final double PRICE_FRENCH_FRIES = 1.65;
-    private static final double PRICE_SHAKE = 2.20;
-    private static final double PRICE_SMALL_DRINK = 1.45;
-    private static final double PRICE_MEDIUM_DRINK = 1.55;
-    private static final double PRICE_LARGE_DRINK = 1.75;
-    private static final double TAX_RATE = 0.08;
+    /**
+     * Price of a Double Double burger.
+     */
+    public static final double PRICE_DOUBLE_DOUBLE = 3.60;
+    /**
+     * Price of a cheeseburger.
+     */
+    public static final double PRICE_CHEESEBURGER = 2.15;
+    /**
+     * Price of one order of french fries.
+     */
+    public static final double PRICE_FRENCH_FRIES = 1.65;
+    /**
+     * Price of a shake.
+     */
+    public static final double PRICE_SHAKE = 2.20;
+    /**
+     * Price of a small drink.
+     */
+    public static final double PRICE_SMALL_DRINK = 1.45;
+    /**
+     * Price of a medium drink.
+     */
+    public static final double PRICE_MEDIUM_DRINK = 1.55;
+    /**
+     * Price of a large drink.
+     */
+    public static final double PRICE_LARGE_DRINK = 1.75;
+    /**
+     * Tax rate in Costa Mesa.
+     */
+    public static final double TAX_RATE = 0.08;
 
     private int mDoubleDoubles;
     private int mCheeseburgers;
