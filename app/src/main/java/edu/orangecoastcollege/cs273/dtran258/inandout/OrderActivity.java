@@ -63,6 +63,7 @@ public class OrderActivity extends AppCompatActivity
      * Retrieves data on the base cost, tax amount, and total cost of the order specified in this
      * actiivity, as well as the number of items ordered, and sends that data to
      * <code>SummaryActivity</code>. <code>SummaryActivity</code> is then launched.
+     *
      * @param v The view that called this method.
      */
     protected void placeOrder(View v)

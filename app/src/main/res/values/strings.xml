@@ -14,6 +14,10 @@
     <string name="place_order_button">Place Order</string>
 
     <!-- SummaryActivity -->
+    <string name="order_total_text_view">Order Total: %s</string>
+    <string name="items_text_view">Items Ordered: %i</string>
+    <string name="subtotal_text_view">Subtotal: %s</string>
+    <string name="tax_text_view">Tax (%1$s): %2$s</string>
     <string name="new_order_button">Start New Order</string>
 
 </resources>

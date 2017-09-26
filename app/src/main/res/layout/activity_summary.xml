@@ -41,5 +41,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/new_order_button_top_margin"
+        android:onClick="startNewOrder"
         android:text="@string/new_order_button"/>
 </LinearLayout>

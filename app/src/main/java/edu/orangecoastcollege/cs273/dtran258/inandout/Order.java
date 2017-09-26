@@ -55,6 +55,7 @@ public class Order
 
     /**
      * Gets the amount of Double Doubles ordered.
+     *
      * @return The amount of Double Doubles ordered.
      */
     public int getDoubleDoubles()
@@ -64,6 +65,7 @@ public class Order
 
     /**
      * Sets the amount of Double Doubles ordered.
+     *
      * @param doubleDoubles The amount of Double Doubles ordered.
      */
     public void setDoubleDoubles(int doubleDoubles)
@@ -73,6 +75,7 @@ public class Order
 
     /**
      * Gets the amount of cheeseburgers ordered.
+     *
      * @return The amount of cheeseburgers orderd.
      */
     public int getCheeseburgers()
@@ -82,6 +85,7 @@ public class Order
 
     /**
      * Sets the amount of cheeseburgers ordered.
+     *
      * @param cheeseburgers The number of cheeseburgers ordered.
      */
     public void setCheeseburgers(int cheeseburgers)
@@ -91,6 +95,7 @@ public class Order
 
     /**
      * Gets the amount of french fries ordered.
+     *
      * @return The amount of french fries ordered.
      */
     public int getFrenchFries()
@@ -100,6 +105,7 @@ public class Order
 
     /**
      * Sets the amount of french fries ordered.
+     *
      * @param frenchFries The amount of french fries ordered.
      */
     public void setFrenchFries(int frenchFries)
@@ -109,6 +115,7 @@ public class Order
 
     /**
      * Gets the amount of shakes ordered.
+     *
      * @return The amount of shakes ordered.
      */
     public int getShakes()
@@ -118,6 +125,7 @@ public class Order
 
     /**
      * Sets the amount of shakes ordered.
+     *
      * @param shakes The amount of shakes ordered.
      */
     public void setShakes(int shakes)
@@ -127,6 +135,7 @@ public class Order
 
     /**
      * Gets the amount of small drinks ordered.
+     *
      * @return The amount of small drinks ordered.
      */
     public int getSmallDrinks()
@@ -136,6 +145,7 @@ public class Order
 
     /**
      * Sets the amount of small drinks ordered.
+     *
      * @param smallDrinks The amount of small drinks ordered.
      */
     public void setSmallDrinks(int smallDrinks)
@@ -145,6 +155,7 @@ public class Order
 
     /**
      * Gets the amount of medium drinks ordered.
+     *
      * @return The amount of medium drinks ordered.
      */
     public int getMediumDrinks()
@@ -154,6 +165,7 @@ public class Order
 
     /**
      * Sets the amount of medium drinks ordered.
+     *
      * @param mediumDrinks The amount of medium drinks ordered.
      */
     public void setMediumDrinks(int mediumDrinks)
@@ -163,6 +175,7 @@ public class Order
 
     /**
      * Gets the amount of large drinks ordered.
+     *
      * @return The amount of large drinks ordered.
      */
     public int getLargeDrinks()
@@ -172,6 +185,7 @@ public class Order
 
     /**
      * Sets the amount of large drinks ordered.
+     *
      * @param largeDrinks The amount of large drinks ordered.
      */
     public void setLargeDrinks(int largeDrinks)
@@ -181,28 +195,27 @@ public class Order
 
     /**
      * Gets the number of items ordered from the menu.
+     *
      * @return The number of items ordered from the menu.
      */
     public int getNumberItemsOrdered()
     {
-        return mDoubleDoubles + mCheeseburgers + mFrenchFries + mShakes + mSmallDrinks
-                + mMediumDrinks + mLargeDrinks;
+        return mDoubleDoubles + mCheeseburgers + mFrenchFries + mShakes + mSmallDrinks + mMediumDrinks + mLargeDrinks;
     }
 
     /**
      * Calculates the base cost of all the items ordered.
+     *
      * @return The base cost of all the items ordered.
      */
     public double calculateSubtotal()
     {
-        return mDoubleDoubles * PRICE_DOUBLE_DOUBLE + mCheeseburgers * PRICE_CHEESEBURGER
-                + mFrenchFries * PRICE_FRENCH_FRIES + mShakes * PRICE_SHAKE
-                + mSmallDrinks * PRICE_SMALL_DRINK + mMediumDrinks * PRICE_MEDIUM_DRINK
-                + mLargeDrinks * PRICE_LARGE_DRINK;
+        return mDoubleDoubles * PRICE_DOUBLE_DOUBLE + mCheeseburgers * PRICE_CHEESEBURGER + mFrenchFries * PRICE_FRENCH_FRIES + mShakes * PRICE_SHAKE + mSmallDrinks * PRICE_SMALL_DRINK + mMediumDrinks * PRICE_MEDIUM_DRINK + mLargeDrinks * PRICE_LARGE_DRINK;
     }
 
     /**
      * Calculates the tax added to the base cost of all items ordered.
+     *
      * @return The tax added to the base cost of all items ordered.
      */
     public double calculateTax()
@@ -212,6 +225,7 @@ public class Order
 
     /**
      * Calculates the total cost of all the items ordered, with tax.
+     *
      * @return The total cost of all the items ordered, with tax.
      */
     public double calculateTotal()
