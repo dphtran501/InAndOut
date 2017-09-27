@@ -44,7 +44,7 @@ public class SummaryActivity extends AppCompatActivity
 
         Intent intentFromOrder = getIntent();
         String total = currency.format(intentFromOrder.getDoubleExtra("order total", 0.0));
-        int numOfItems = intentFromOrder.getIntExtra("items ordered", 0);
+        String numOfItems = String.valueOf(intentFromOrder.getIntExtra("items ordered", 0));
         String subtotal = currency.format(intentFromOrder.getDoubleExtra("subtotal", 0.0));
         String tax = currency.format(intentFromOrder.getDoubleExtra("tax", 0.0));
 

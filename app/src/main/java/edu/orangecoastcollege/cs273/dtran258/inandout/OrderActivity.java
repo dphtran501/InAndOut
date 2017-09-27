@@ -105,13 +105,28 @@ public class OrderActivity extends AppCompatActivity
 
     private void setOrder()
     {
-        mOrder.setDoubleDoubles(Integer.parseInt(mDoubleDoubleEditText.getText().toString()));
-        mOrder.setCheeseburgers(Integer.parseInt(mCheeseburgerEditText.getText().toString()));
-        mOrder.setFrenchFries(Integer.parseInt(mFrenchFriesEditText.getText().toString()));
-        mOrder.setShakes(Integer.parseInt(mShakesEditText.getText().toString()));
-        mOrder.setSmallDrinks(Integer.parseInt(mSmallDrinkEditText.getText().toString()));
-        mOrder.setMediumDrinks(Integer.parseInt(mMediumDrinkEditText.getText().toString()));
-        mOrder.setLargeDrinks(Integer.parseInt(mLargeDrinkEditText.getText().toString()));
+        int numOfDoubleDoubles = (mDoubleDoubleEditText.getText().length() == 0)
+                ? 0 : Integer.parseInt(mDoubleDoubleEditText.getText().toString());
+        int numOfCheeseburgers = (mCheeseburgerEditText.getText().length() == 0)
+                ? 0 : Integer.parseInt(mCheeseburgerEditText.getText().toString());
+        int numOfFries = (mFrenchFriesEditText.getText().length() == 0)
+                ? 0 : Integer.parseInt(mFrenchFriesEditText.getText().toString());
+        int numOfShakes = (mShakesEditText.getText().length() == 0)
+                ? 0 : Integer.parseInt(mShakesEditText.getText().toString());
+        int numOfSmallDrinks = (mSmallDrinkEditText.getText().length() == 0)
+                ? 0 : Integer.parseInt(mSmallDrinkEditText.getText().toString());
+        int numOfMediumDrinks = (mMediumDrinkEditText.getText().length() == 0)
+                ? 0 : Integer.parseInt(mMediumDrinkEditText.getText().toString());
+        int numOfLargeDrinks = (mLargeDrinkEditText.getText().length() == 0)
+                ? 0 : Integer.parseInt(mLargeDrinkEditText.getText().toString());
+
+        mOrder.setDoubleDoubles(numOfDoubleDoubles);
+        mOrder.setCheeseburgers(numOfCheeseburgers);
+        mOrder.setFrenchFries(numOfFries);
+        mOrder.setShakes(numOfShakes);
+        mOrder.setSmallDrinks(numOfSmallDrinks);
+        mOrder.setMediumDrinks(numOfMediumDrinks);
+        mOrder.setLargeDrinks(numOfLargeDrinks);
     }
 
 }
